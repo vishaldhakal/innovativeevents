@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+#navtop a{
+    padding: 7px;
+}
+a:hover{
+    cursor: pointer;
+}
+.active{
+    font-weight: 700;
+    color: black;
+}
+#title{
+    font-weight: 800;
+    line-height: normal;
+}
+.title1{
+    font-size: 3rem;
+}
+#tex{
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    color: rgb(73, 73, 73);
+    font-size: 1.25rem;
+}
+#tex2{
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    font-size: 1.25rem;
+}
+#main{
+    background: url('../images/back.png');
+    background-position: center;
+}
+.vidd{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 100px;
+}
+.fontt{
+    font-size: 1.3rem;
+}
+::placeholder{
+    color: rgb(82, 82, 82) !important;
+}
