@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: white;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 #navtop a{
     padding: 7px;
@@ -15,7 +16,7 @@ a:hover{
     color: black;
 }
 #title{
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
 }
 .title1{
@@ -34,6 +35,7 @@ a:hover{
 }
 #main{
     background: url('../images/back.png');
+    background-size: cover;
     background-position: center;
 }
 .vidd{
